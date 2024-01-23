@@ -1,11 +1,11 @@
 import { nextTick } from 'vue';
 import { createI18n } from 'vue-i18n';
 
-let i18n;
+let i18n: any;
 
 export const SUPPORT_LOCALES = ['kaz', 'ru', 'en'];
 
-export function setI18nLanguage(locale) {
+export function setI18nLanguage(locale: any) {
   loadLocaleMessages(locale);
 
   if (i18n.mode === 'legacy') {
@@ -13,12 +13,12 @@ export function setI18nLanguage(locale) {
   } else {
     i18n.global.locale.value = locale;
   }
-
-  document.querySelector('html').setAttribute('lang', locale);
+  const htmlDoc = document.querySelector('html');
+  htmlDoc?.setAttribute('lang', locale);
   localStorage.setItem('lang', locale);
 }
 
-export async function loadLocaleMessages(locale) {
+export async function loadLocaleMessages(locale: any) {
   // load locale messages with dynamic import
   const messages = await import(
     /* webpackChunkName: "locale-[request]" */ `./locales/${locale}.json`

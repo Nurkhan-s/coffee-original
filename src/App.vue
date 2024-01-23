@@ -10,14 +10,17 @@ watch(locale, (val) => {
 </script>
 
 <template>
-  <h1>{{ $t('title.config') }}</h1>
-  <select class="App-language" v-model="locale">
-    <option
-        v-for="optionLocale in supportLocales"
-        :key="`locale-${optionLocale}`"
-        :value="optionLocale">{{ optionLocale }}
-    </option>
-  </select>
+  <div>
+    <h1>{{ $t('title.config') }}</h1>
+    <select class="App-language" v-model="locale">
+      <option
+          v-for="optionLocale in supportLocales"
+          :key="`locale-${optionLocale}`"
+          :value="optionLocale">{{ optionLocale }}
+      </option>
+    </select>
+  </div>
+
 </template>
 
 <style scoped>

@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
-    "deploy": "gh-pages -d docs"
+    "deploy": "gh-pages -d"
   },
   "dependencies": {
     "sass": "^1.70.0",

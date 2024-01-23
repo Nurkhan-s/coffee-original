@@ -10,7 +10,7 @@ watch(locale, (val) => {
 </script>
 
 <template>
-  <div>
+  <div class="root">
     <h1>{{ $t('title.config') }}</h1>
     <select class="App-language" v-model="locale">
       <option
@@ -23,31 +23,13 @@ watch(locale, (val) => {
 
 </template>
 
-<style scoped>
-header {
-  line-height: 1.5;
-}
+<style lang="scss" scoped>
+.root {
+  display: flex;
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
+  h1 {
+    margin-right: 10px;
   }
 }
+
 </style>

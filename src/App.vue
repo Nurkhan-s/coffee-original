@@ -1,20 +1,23 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import { watch } from 'vue';
+import { useI18n } from 'vue-i18n';
+import { SUPPORT_LOCALES as supportLocales, setI18nLanguage } from './i18n';
+
+const { locale } = useI18n({ useScope: 'global' });
+watch(locale, (val) => {
+  setI18nLanguage(val);
+});
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <h1>{{ $t('title.config') }}</h1>
+  <select class="App-language" v-model="locale">
+    <option
+        v-for="optionLocale in supportLocales"
+        :key="`locale-${optionLocale}`"
+        :value="optionLocale">{{ optionLocale }}
+    </option>
+  </select>
 </template>
 
 <style scoped>

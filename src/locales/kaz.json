@@ -1,0 +1,10 @@
+{
+  "languages": {
+    "kaz": "Kazakh",
+    "ru": "Russian",
+    "en": "English"
+  },
+  "title": {
+    "config": "Configuration"
+  }
+}

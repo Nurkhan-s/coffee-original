@@ -1,0 +1,8 @@
+Index: docs/CNAME
+===================================================================
+diff --git a/docs/CNAME b/docs/CNAME
+deleted file mode 100644
+--- a/docs/CNAME	
++++ /dev/null	
+@@ -1,1 +0,0 @@
+-coffee-original.kz

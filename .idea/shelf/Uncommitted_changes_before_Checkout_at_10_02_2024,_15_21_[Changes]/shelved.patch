@@ -1,0 +1,28 @@
+Index: index.html
+===================================================================
+diff --git a/index.html b/index.html
+deleted file mode 100644
+--- a/index.html	(revision 467049512e5df011f9d01b472e00aec34be70c43)
++++ /dev/null	(revision 467049512e5df011f9d01b472e00aec34be70c43)
+@@ -1,13 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-  <head>
+-    <meta charset="UTF-8">
+-    <link rel="icon" href="/favicon.ico">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Coffee Original</title>
+-  </head>
+-  <body>
+-    <div id="app"></div>
+-    <script type="module" src="/src/main.ts"></script>
+-  </body>
+-</html>
+Index: CNAME
+===================================================================
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+--- a/CNAME	(revision 467049512e5df011f9d01b472e00aec34be70c43)
++++ /dev/null	(revision 467049512e5df011f9d01b472e00aec34be70c43)
+@@ -1,1 +0,0 @@
+-coffee-original.kz

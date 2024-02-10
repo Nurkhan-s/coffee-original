@@ -1,0 +1,30 @@
+Index: index.html
+===================================================================
+diff --git a/index.html b/index.html
+deleted file mode 100644
+--- a/index.html	(revision f7f32387b9d1dd8c6b328172e438b9b25aec79a4)
++++ /dev/null	(revision f7f32387b9d1dd8c6b328172e438b9b25aec79a4)
+@@ -1,14 +0,0 @@
+-<!DOCTYPE html>
+-<html lang="en">
+-  <head>
+-    <meta charset="UTF-8">
+-    <link rel="icon" href="/coffee-original/favicon.ico">
+-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+-    <title>Coffee Original</title>
+-    <script type="module" crossorigin src="/coffee-original/assets/index-A9FZiRTc.js"></script>
+-    <link rel="stylesheet" crossorigin href="/coffee-original/assets/index-Ah8JarIC.css">
+-  </head>
+-  <body>
+-    <div id="app"></div>
+-  </body>
+-</html>
+Index: CNAME
+===================================================================
+diff --git a/CNAME b/CNAME
+deleted file mode 100644
+--- a/CNAME	(revision f7f32387b9d1dd8c6b328172e438b9b25aec79a4)
++++ /dev/null	(revision f7f32387b9d1dd8c6b328172e438b9b25aec79a4)
+@@ -1,1 +0,0 @@
+-coffee-original.kz
+\ No newline at end of file

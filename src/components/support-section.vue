@@ -20,16 +20,16 @@ const slides = [
   <section class="support">
     <ornament-container>
       <container>
-        <carousel>
-          <slide v-for="slide in slides">
-            <div class="support-title">
-              {{ slide.title }}
-            </div>
-            <div class="support-text">
-              {{ slide.text }}
-            </div>
-          </slide>
-        </carousel>
+<!--        <carousel>-->
+<!--          <slide v-for="slide in slides">-->
+<!--            <div class="support-title">-->
+<!--              {{ slide.title }}-->
+<!--            </div>-->
+<!--            <div class="support-text">-->
+<!--              {{ slide.text }}-->
+<!--            </div>-->
+<!--          </slide>-->
+<!--        </carousel>-->
       </container>
     </ornament-container>
   </section>

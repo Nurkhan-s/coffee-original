@@ -1,6 +1,7 @@
 <script setup>
 import OrnamentContainer from '@/components/ornament-container.vue';
 import Container from '@/components/container.vue';
+import { Carousel, Slide } from 'vue3-carousel';
 
 const slides = [
   {
@@ -20,14 +21,14 @@ const slides = [
     <ornament-container>
       <container>
         <carousel>
-          <carousel-slide v-for="slide in slides">
+          <slide v-for="slide in slides">
             <div class="support-title">
               {{ slide.title }}
             </div>
             <div class="support-text">
               {{ slide.text }}
             </div>
-          </carousel-slide>
+          </slide>
         </carousel>
       </container>
     </ornament-container>

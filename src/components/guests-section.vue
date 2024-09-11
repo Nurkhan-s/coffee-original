@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import OrnamentContainer from '@/components/ornament-container.vue';
+import Container from '@/components/container.vue';
+</script>
 <template>
   <section class="guests">
     <ornament-container>
@@ -9,7 +13,4 @@
 <style lang="scss">
 
 </style>
-<script setup>
-import OrnamentContainer from '@/components/ornament-container.vue';
-import Container from '@/components/container.vue';
-</script>
+

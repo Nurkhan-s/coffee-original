@@ -1,3 +1,7 @@
+<script setup lang="ts">
+import OrnamentContainer from '@/components/ornament-container.vue';
+import Container from '@/components/container.vue';
+</script>
 <template>
   <section class="why">
     <ornament-container>
@@ -92,7 +96,3 @@
 
 }
 </style>
-<script setup>
-import OrnamentContainer from '@/components/ornament-container.vue';
-import Container from '@/components/container.vue';
-</script>

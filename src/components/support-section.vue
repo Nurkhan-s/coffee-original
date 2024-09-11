@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import OrnamentContainer from '@/components/ornament-container.vue';
 import Container from '@/components/container.vue';
 import { Carousel, Slide } from 'vue3-carousel';

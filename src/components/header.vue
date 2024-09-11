@@ -10,7 +10,7 @@ watch(locale, (val) => {
   setI18nLanguage(val);
 });
 
-const setLocal = (local) => {
+const setLocal = (local: any) => {
   locale.value = local.toLowerCase();
 }
 

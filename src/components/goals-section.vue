@@ -1,3 +1,6 @@
+<script setup lang="ts">
+import Container from '@/components/container.vue';
+</script>
 <template>
   <section class="goals">
     <container>
@@ -53,6 +56,3 @@
   }
 }
 </style>
-<script setup>
-import Container from '@/components/container.vue';
-</script>
